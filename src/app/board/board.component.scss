@@ -1,10 +1,22 @@
+@function getPropertyValue($property, $selector: null){
+    @return property;
+}
+
 main {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 5px;
 }
 
+.newGame{
+    margin-left: 250px;
+
+    > button {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
 app-square {
-    border: 1px gray solid;
     height: 200px;
 }
